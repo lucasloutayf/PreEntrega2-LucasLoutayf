@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big";
+}
+
+.nav-link{
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar {
+    background-color: #a9a9a9;
+}
+
+.div__presentacion h2{
+    text-align: left;
+    width: 200px;
+    margin-top: 100px;
+    color: white;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    transition: 0.5s;
+}
+
+.div__presentacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.section__presentacion {
+    background-color: gray;
+    height: 500px;
+    display: grid;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section__title {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.div__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__tienda {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div__tienda {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+.p__tienda {
+    height: 100%;
+    width: 340px;
+    background-color: #a9a9a9 ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.a__tienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+h2:hover {
+    color: #191919;
+}
+
+.div__estudio {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text__estudio {
+    text-align: left;
+    padding: 0 10px;
+    font-size: 16px; 
+}
+
+.title__estudio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner .carousel-item {
+    height: 400px; 
+}
+
+.carousel-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    background-color: #a9a9a9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+}
+
+.footer__item {
+    margin: 10px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: gray;
+    color: #191919;
+}
+
+.tarjeta div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.tarjeta div a {
+    width: 100%;
+    padding: 10px;
+    background-color: #191919;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.page__title {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.page__title:hover {
+    color: gray;
+}
+
+.tarjeta div h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta div p {
+    text-align: center;
+}
+
+/* Media queries */
+
+    @media (max-width: 768px) {
+        .carousel-inner .carousel-item {
+            height: 300px; 
+        }
+    
+        .title__estudio {
+            font-size: 20px;
+        }
+    
+        .text__estudio {
+            font-size: 14px;
+        }
+    
+        .p__tienda {
+            font-size: 16px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .carousel-inner .carousel-item {
+            height: 200px; 
+        }
+    
+        .item__presentacion {
+            font-size: 16px;
+        }
+    
+        .title__estudio {
+            font-size: 18px;
+        }
+    
+        .text__estudio {
+            font-size: 12px;
+        }
+    
+        .p__tienda {
+            font-size: 14px;
+        }
+    
+        .footer__item {
+            font-size: 12px;
+        }
+    }
+
+
